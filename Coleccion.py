@@ -34,7 +34,7 @@ class Coleccion(object):
     def __str__(self):
         return f"Coleccion {self.nombre} con {len(self.documentos)} documentos"
     
-
+'''
 test = Coleccion("hola")
 
 test.importarColeccion("C:\\Users\\facun\\Escritorio\\datos_personales.csv")
@@ -42,3 +42,8 @@ test.importarColeccion("C:\\Users\\facun\\Escritorio\\datos_personales.csv")
 print(test)
 
 print(test.buscar_documento(1))
+'''
+
+test = Coleccion('test')
+
+print(test.documentos.get(1))

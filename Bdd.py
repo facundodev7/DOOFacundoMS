@@ -22,4 +22,8 @@ class BaseDeDatos(object):
     
     def __str__(self):
         return f"Base de datos documental con {len(self.colecciones)} colecciones"
-            
+
+bdd = BaseDeDatos()
+
+bdd.crearColeccion('Holanda2')
+print(bdd.obtenerColeccion(''))
